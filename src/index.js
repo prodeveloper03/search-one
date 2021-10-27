@@ -6,11 +6,9 @@ import './global.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 
-ReactDom.render( <
-    Router >
-    <
-    App / >
-    <
-    /Router>,
-
-    document.getElementById('root'));
+ReactDom.render( 
+    <Router>
+        < App / >
+    </Router>,
+    
+  document.getElementById('root'));
